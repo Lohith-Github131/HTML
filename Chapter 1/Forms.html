@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+ <html lang="en">  
+    <head>
+        <meta charset="UTF-8">
+        <title> Designing My First Web Page</title>
+        <link rel="table" type="text/css" href="table.css">
+            </head>
+
+    <body>
+        <header> 
+        <h1 >About My Self </h1>
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="#Details"> Personal Details </a>
+                </li>
+                <li>
+                    <a href="#Education">my education details</a>
+                </li>
+
+                <li>
+                    <a href="#Contact"> Contact me </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+        <hr>
+        <main> 
+
+        <article id="Details"> 
+
+        <h2> BIO</h2>
+        <p>  Name:-Lohith Polisetty.</p>
+        <h3> More About me </h3>
+        <p> Date of Birth:-06/11/1999</p>
+        <ol>
+            <li> Age:- 25 </li> 
+            <li>Phone:- 813502252 </li> 
+            <li>Address:- 12806 Varsity club ct Apt 204, Tampa,Florida 33612</li>
+        </ol>
+       </article>
+
+    
+        <article id="Education">
+        <h2> Eduaction Background</h2>
+        
+
+        <figure> 
+            <section>
+        <p> I have done my <em>MS</em>in Engineering Management
+        from <abbr title="University of SouthFlorida"> <a href="https://www.usf.edu/">USF</a></abbr>.</p>
+
+        <h3> USF </h3>
+        <img src="Images/USF-Marshall-Bulls-.jpg" alt="USF LOGO" title="I am a Usf Student"
+        width="660" height="517">
+
+        <figcaption> <strong> Marshall Student center </strong></figcaption>
+        <p> 
+            <code>&lt;&lt;&lt; This is theplace where all Student Activites takes palce! &gt; &gt; &gt;
+                
+            </code> </p>
+    </figure>
+
+      <aside>
+        <details>
+            <summary>
+                Guess what are the options avilable for having <mark>food </mark>
+            </summary>
+            <p>
+                Subway, Panda express & CFA opens at <time datetime="08:00">8am
+                    </time> and I work in CFA for <time datetime="PT3H"> 20hrs </time> weekly 
+                        three days in the morning.
+            </p>
+        </details>
+      </aside>
+       <br> 
+       <table>
+        <caption> Work Schedule </caption>
+        <tr> 
+            <th> Time </th> 
+            <th> Activity </th>
+        </tr>
+        <tr>
+            <td> 
+                <time datetime="08:00">8am</time>-<time datetime="11:00">10am</time>
+            </td>
+            <td> We do all the prep like making buns,cooking chicken nuggets etc..</td>
+
+        </tr>
+
+        <tr>
+            <td> 
+                <time datetime="11:00">11am</time>-<time datetime="1:00">1pm</time>
+            </td>
+            <td> we will be taking orders and will be little busy </td>
+        </tr>
+
+        <tr>
+            <td> 
+                <time datetime="1:00">1pm</time>-<time datetime="1:30">1:30pm</time>
+            </td>
+            <td> Lunch break </td>
+        </tr>
+
+        <tr>
+            <td> 
+                <time datetime="1:30">1:30pm</time>-<time datetime="3:00">3pm</time>     
+                   </td>
+                   <td> Continuing the shift until 3pm</td>
+        </tr>
+       </table>
+
+
+    </section>
+
+        <hr>
+        <figure> 
+            <section>
+        <p> I have done my <strong>B.Tech</strong>in Information Technology from <a href="https://vignan.ac.in/"><em>Vignan University.</em> </a></p>    
+        <img src="Images/vu.jpeg" alt="VU-U Block" title="Department of IT is in third floor" width="317" height="159" loading="lazy">
+
+            <figcaption>
+            <strong> Vignan University U-Block </strong>
+            </figcaption>
+    </figure>
+</section>
+
+    <hr>
+
+    <section>
+        <h3> Things I do in my free time</h3>
+        <ul> 
+        <li> <p> I love watching Movies.</p> </li>
+        <li> <p> I love Dancing.</p></li>
+        <li> <p> Browsing the Internet feed.</p> </li>
+    <li><p> I heard this movie theatre plays all new telugu films.</p>
+
+        <address>
+            18002 Highwoods Preserve Pkwy,  
+            Tampa, FL, 33647, United States
+        
+        </address>
+        <figure> 
+        <img src="Images/amc.jpeg" alt="Amc Highwoods 20" title="theatre" loading="lazy" width="225" height="225">  
+        <figcaption>
+            <strong> AMC Highwoods 20</strong>
+        </figcaption>
+    </figure>
+            </li>
+    </ul>
+    <!--- To Add more (basic ga ee syntax comment ke use chestam)-->
+    <h3> Places I dont like to visit </h3>
+     <dl>
+        <dt> North Side</dt>
+        <dd> I heard there will be too <strong> Cold!</strong></dd>
+ 
+        <dt> Southern part</dt>
+        <dd> places in southern part also will be <strong>Cold!</strong></dd>
+     </dl>
+    </section>
+</article>
+   
+<hr>
+    <article id="contact">
+        <h2>Contact Me</h2>
+        <p> I would like to lsiten the feedback from you! </p>
+        <form action="https://httpbin.org/get" method="get">
+
+            <fieldset> 
+                <legend> Personal Info </legend>
+            <p> 
+            <label for="FirstName">First Name:</label>
+            <input type="text" name="FirstName" 
+            id="FirstName" placeholder="lohith" 
+            autocomplete="on" required="true" autofocus>
+        </p>
+
+        <p>
+            <label for="Last Name">Last Name:</label>
+            <input type="text" name="Last Name" 
+            id="Last Name" placeholder="Polisetty" 
+            autocomplete="on" required="true">
+        </p>
+
+        <p>
+            <label for="Password"> Password:</label>
+            <input type="password" name="Password" 
+            id="Password" placeholder="your secret" 
+             required="true">
+        </p>
+
+        <p>
+            <label for="Phone"> Phone:</label>
+            <input type="tel" name="Phone"id="Phone" 
+            placeholder="5555555555" 
+            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+            required="true">
+        </p>
+
+        <p>
+            <label for="Date of Birth"> Date of Birth:</label>
+            <input type="number" name="DOB"id="DOB"
+            min="1990" max="2025" step="1" value="1990">
+        </p>
+
+        <p>
+            <label for="Coffee"> Favourite Coffee:</label>
+            <select name="coffee" id="coffee" multiple size="5">
+
+        <optgroup label="Coffees"> 
+            <option value="regular coffee" > Regular Coffee</option>
+            <option value="iced Coffe">Iced Coffee</option>
+        </optgroup>
+
+        <optgroup label="Espresso"> 
+            <option value="cai latte">Chai Latte</option>
+            <option value="cappuchino">Cappuchino</option>
+            <option value="mocha cookie crumble">Mocha Cookie Crumble</option>
+            <option value="caramel punch">Caramel Punch</option>
+        </optgroup>
+            <option value="other">Other</option>
+            </select>
+        </p>
+    </fieldset>
+    <br>
+    <fieldset> 
+        <legend> what is your Favourite food? </legend>
+        <p>
+            <input type="radio" name="food" id="tacos" value="tacos">
+            <label for="tacos"> Tcaos </label>
+        </p>
+        <p>
+            <input type="radio" name="food" id=modPizza" value="Mod Pizza">
+            <label for="Mod Pizza"> Mod Pizza </label>
+        </p>
+        <p>
+            <input type="radio" name="food" id="Chipottale" value="Chipottale">
+            <label for="Chipottale"> chipotale </label>
+        </p>
+
+        <p>
+            <input type="radio" name="food" id="other" value="other">
+            <label for="other"> other </label>
+        </p>
+    </fieldset>
+    <br> 
+    <fieldset>
+         <legend> Beverages </legend>
+         <p>
+            <input type="checkbox" name="beverages" id="Sprite" value="Sprite">
+            <label for="Sprite"> Sprite </label>
+         </p>
+
+         <p>
+            <input type="checkbox" name="beverages" id="Coke" value="Coke">
+            <label for="Coke"> Coke </label>
+         </p>
+
+         <p>
+            <input type="checkbox" name="beverages" id="Fanta" value="Fanta">
+            <label for="Fanta"> Fanta </label>
+         </p>
+
+         <p>
+            <input type="checkbox" name="beverages" id="others" value="others">
+            <label for="others"> others </label>
+         </p>
+    </fieldset>
+
+    <fieldset>
+        <legend> Give me a feedback </legend>
+        <label for="Leave your comments">Comments:</label>
+        <br>
+        <textarea name="Comments" id="comments" cols="20" rows="10" 
+        palceholder="Type your comments here"></textarea>
+    </fieldset>
+    <br>
+    <button type="submit">Submit</button>
+    <button type="submit" formaction="https://httpbin.org/post"
+    formmethod="post">Post</button>
+    <button type="reset"> Reset</button>
+
+    </form>
+    </article>
+</main>
+    
+    
+        <hr>
+        <footer> 
+        <p> 
+        &lt;&lt;&lt;&lt; &copy; <a href="about.html">Lohith Polisetty</a> &gt;&gt;&gt;&gt;
+    </p>
+        <P>
+            <a href="#"> Back to top </a>
+        </P>
+
+    </footer>
+    </body>
+ </html>             
